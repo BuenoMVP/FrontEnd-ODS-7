@@ -1,151 +1,172 @@
 body {
 
-    margin: 0; /* Retirando a margin padrão do body */
+    margin: 0; /* Retirando a margin padrão do body. */
 
-    background-image: url(../images/background.jpg); /* Colocando uma imagem de fundo */
+    background-image: url(../images/background.jpg); /* Colocando uma imagem de fundo. */
 
-    background-attachment: fixed; /* Deixando a imagem fixa */
+    background-attachment: fixed; /* Deixando a imagem fixa. */
 
-    background-repeat: no-repeat; /* Impedindo a repetição da imagem */
+    background-repeat: no-repeat; /* Impedindo a repetição da imagem. */
 
-    background-size: cover; /* "Cobrindo" todo o body */
+    background-size: cover; /* "Cobrindo" todo o body. */
 
-    font-family: monospace; /* Definindo uma fonte para as páginas */
+    font-family: monospace; /* Definindo uma fonte para as páginas. */
 
 }
 
 header {
 
-    background-color: black; /* Definindo a cor preta para o background do header */
+    background-color: black; /* Definindo a cor preta para o background do header. */
 
-    border-radius: 0 0 10px 10px; /* Definindo uma borda arredondada para o header */
+    border-radius: 0 0 10px 10px; /* Definindo uma borda arredondada para o header. */
 
-    border-bottom: 2px solid white; /* Definindo uma borda, tipo, grossura e cor */
+    border-bottom: 2px solid white; /* Definindo uma borda de baixo, tipo, grossura e cor. */
 
-    width: 100%; /* Definindo o comprimento do header */
+    width: 100%; /* Definindo o comprimento do header. */
 
-    height: auto; /* Definindo a altura como automática no header */
+    height: auto; /* Definindo a altura como automática no header. */
 
-    position: fixed; /* Deixando o header fixado */
+    position: fixed; /* Deixando o header fixado. */
 
-    top: 0; /* Retirando o espaçamento topo do header */
+    top: 0; /* Retirando o espaçamento topo do header. */
+
+}
+
+header nav{
+
+    display: flex; /* Deixando a tag <nav> com o display flexivél. */
+
+    justify-content: center; /* Alinhando os itens da tag <nav> de forma horizontal. */
+
+    align-items: center; /* Alinhando os itens da tag <nav> de forma vertical. */
 
 }
 
 header ul {
 
-    padding: 0; /* Retirando o padding automático da tag <ul> para uma melhor centralização */
+    padding: 0; /* Retirando o padding automático da tag <ul> para uma melhor centralização. */
 
-    display: flex; /* Deixando a tag <ul> com o display flexivél */
+    display: flex; /* Deixando a tag <ul> com o display flexivél. */
 
-    align-items: center; /* Alinhando os itens da tag <ul> */
+    align-items: center; /* Alinhando os itens da tag <ul>. */
 
 }
 
 header li {
 
-    list-style-type: none; /* Retirando os pontos para melhorar a aparência */
+    list-style-type: none; /* Retirando os pontos para melhorar a aparência. */
 
 }
 
-header a { 
+header a , form a{ 
 
-    display: flex; /* Deixando a tag <a> com o display flexivél */
+    display: flex; /* Deixando a tag <a> com o display flexivél. */
 
-    align-items: center; /* Alinhando de forma horizontal, os itens da tag <a> */
+    align-items: center; /* Alinhando de forma horizontal, os itens da tag <a>. */
 
-    justify-content: center; /* Alinhando de forma vertical, os itens da tag <a> */
+    justify-content: center; /* Alinhando de forma vertical, os itens da tag <a>. */
 
-    text-decoration: none; /* Retirando o sublinhado padrão da tag <a> */
+    text-decoration: none; /* Retirando o sublinhado padrão da tag <a>. */
 
-    font-size: 12px; /* Definindo o tamanho da font */
+    font-size: 12px; /* Definindo o tamanho da font. */
 
-    color: white; /* Definindo a cor da font */
+    color: white; /* Definindo a cor da font. */
 
-    width: 18vw; /* Definindo o comprimento da tag <a> */
+    background-color: black; /* Definindo a cor preta para o background de determinadas tags <a>. */
 
-    height: 50px; /* Definindo a altura da tag <a> */
+    width: 18vw; /* Definindo o comprimento da tag <a>. */
 
-    margin: 4px; /* Dando um espaçamento entre as tags <a> */
+    height: 50px; /* Definindo a altura da tag <a>. */
 
-    border-radius: 15px; /* Deixando as bordas arrendondadas das tags <a> */
+    margin: 4px; /* Dando um espaçamento entre as tags <a>. */
 
-    border: 2px solid white; /* Definindo a cor, espressura e tipo da borda das tags <a> */
+    border-radius: 15px; /* Deixando as bordas arrendondadas das tags <a>. */
+
+    border: 2px solid white; /* Definindo a cor, espressura e tipo da borda das tags <a>. */
 
 }
 
-header a:hover{
+header a:hover, form a:hover{
 
-    background-color: white; /* Definindo a cor de fundo das tags <a> quando passar o mouse por cima*/
+    background-color: white; /* Definindo a cor de fundo das tags <a> quando passar o mouse por cima. */
 
-    color: rgb(0, 0, 0); /* Definindo a cor das tags <a> quando passar o mouse por cima*/
+    color: rgb(0, 0, 0); /* Definindo a cor das tags <a> quando passar o mouse por cima. */
 
 }
 
 main{
-    margin: 100px 0px;
+
+    margin: 100px 0px; /* Dando um espaçamento exterior para a tag <main>. */
+
+    display: flex; /* Deixando a tag <main> com o display flexivél. */
+
+    align-items: center; /* Alinhando de forma horizontal, os itens da tag <main>. */
+
+    justify-content: center; /* Alinhando de forma vertical, os itens da tag <main>. */
+
+    flex-direction: column; /* Definindo uma direção de coluna da tag <main>. */
 }
 
-.centraliza {
+main img{
 
-    display: flex; 
+    border-radius: 10px; /* Deixando as bordas arrendondadas das imagens dentro da tag <main>. */
 
-    align-items: center;
-
-    flex-direction: column;
-
-    justify-content: center;
+    border: 2px solid black; /* Definindo uma borda com o tipo, grossura e cor. */
 
 }
 
 p {
 
-    font-size: 15px;
+    font-size: 15px; /* Definindo um tamanho para fonte. */
 
-    font-weight: bold;
+    font-weight: bold; /* Definindo a espressura da fonte. */
 
-    text-align: center;
-
-    width: 40vw;
+    text-align: center; /* Definindo o alinhamento da tag <p>. */
+  
+    width: 40vw; /* Definindo o comprimento da tag <p>. */
 
 }
 
 .cartao {
 
-    width: 40%;
+    display: flex; /* Deixando o cartao com o display flexivél. */
 
-    display: flex;
+    align-items: center; /* Alinhando de forma horizontal, os itens do cartao. */
 
-    align-items: center;
+    flex-direction: column; /* Definindo uma direção de coluna do cartao. */
 
-    flex-direction: column;
+    border: 4px solid black; /* Definindo a cor, espressura e tipo da borda do cartao. */
 
-    border: 4px solid black;
+    border-radius: 50px; /* Deixando as bordas arrendondadas do cartao. */
 
-    border-radius: 50px;
+    margin: 5px; /* Dando um espaçamento exterior para os cartoes. */
 
-    margin: 5px;
-
-    padding: 45px;
+    padding: 45px; /* Dando um espaçamento interior para os cartoes. */
 
 }
 
 footer {
 
-    width: 100%;
+    display: flex; /* Deixando o footer com o display flexivél. */
+ 
+    align-items: center; /* Alinhando de forma horizontal, os itens do footer. */
 
-    color: rgb(0, 0, 0);
+    flex-direction: column; /* Definindo uma direção de coluna do footer. */
+
+    width: 100%; /* Definindo o comprimento da tag <footer>. */
+
+    color: rgb(0, 0, 0); /* Definindo a cor das letras que estiverem dentro do footer. */
     
-    background-color: rgb(255, 204, 0);
+    background-color: rgb(255, 204, 0); /* Definindo a cor do background da tag <footer>. */
 
-    border-top: 3px solid black;
+    border-top: 3px solid black; /* Definindo a cor, espressura e tipo da borda de cima da tag <footer>. */
 
-    margin-top: 5%;
+    margin-top: 10px; /* Dando um espaçamento, em cima e exterior para o footer. */
 
 }
 
 #github {
 
-    margin: 10px;
+    margin: 10px; /* Dando um espaçamento exterior para a imagem do GitHub. */
 
 }

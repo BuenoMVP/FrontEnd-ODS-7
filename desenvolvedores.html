@@ -1,106 +1,116 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Tipo de documento. -->
 
-<html lang="pt-br">
+<html lang="pt-br"> <!-- Linguagem da página. -->
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!-- Encoding usado na página. -->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garantir que o conteúdo se adapte bem a dispositivos de diferentes tamanhos e que a experiência do usuário seja otimizada. -->
 
-    <title>ODS 7 - Desenvolvedores</title>
+    <title>ODS 7 - Desenvolvedores</title> <!-- Titulo da página. -->
 
-    <link rel="stylesheet" href="css/desenvolvedores.css">
+    <link rel="stylesheet" href="css/desenvolvedores.css"> <!-- Arquivo CSS que é usado na página. -->
 
-    <link rel="icon" href="images/raio.png" type="image/x-icon">
+    <link rel="icon" href="images/raio.png" type="image/x-icon"> <!-- Ícone do site. -->
 
 </head>
 
 <body>
 
-    <header> <!-- Cabeçalho, 2 imagens e menu inicial-->
+    <header> <!-- Cabeçalho e menu inicial. -->
 
-        <div class="centraliza">
+        <nav> <!-- Menu com as opcões do header. -->
 
-            <nav>
+            <ul> <!-- Criando a lista das opções. -->
 
-                <ul>
+                <li> <!-- Opção de início. -->
 
-                    <li>
+                    <a href="index.html" class="botao" title="Página inicial"> Início </a> <!-- Link para a página 'index.html'. -->
 
-                        <a href="index.html" class="botao"> Início </a>
+                </li>
 
-                    </li>
+                <li> <!-- Opção de formulário. -->
 
-                    <li>
+                    <a href="form.html" class="botao" title="Formulário do site"> Formulário </a> <!-- Link para a página 'form.html'. -->
 
-                        <a href="form.html" class="botao"> Formulário</a>
+                </li>
 
-                    </li>
+                <li> <!-- Opção de energias. -->
 
-                    <li>
+                    <a href="energias.html" class="botao" title="Tipos de energias"> Energias </a> <!-- Link para a página 'energias.html'. -->
 
-                        <a href="energias.html" class="botao"> Energias </a>
+                </li>
 
-                    </li>
+                <li> <!-- Opção de desenvolvedores. -->
 
-                    <li>
+                    <a href="desenvolvedores.html" class="botao" title="Desenvolvedores do projeto"> Devs. </a> <!-- Link para a página 'desenvolvedores.html'. -->
 
-                        <a href="desenvolvedores.html" class="botao"> Devs. </a>
+                </li>
 
-                    </li>
+            </ul>
 
-                </ul>
-
-            </nav>
-
-        </div>
+        </nav>
 
     </header>
-    <!-- Principal, informação sobre desenvolvedores em cartões-->
-    <main>
-        <div class="centraliza">
 
-            <h1>Desenvolvedores do Projeto:</h1>
+    <main> <!-- Principal, informação sobre desenvolvedores em cartões-->
 
-            <div class="cartao">
+        <h1>Desenvolvedores do Projeto:</h1> <!-- Titulo principal -->
 
-                <h3>Micael Ribeiro Rocha</h3>
+        <div class="cartao">
 
-                <img src="images/micael.jpeg" width="150" height="150" alt="Micael" class="imgDev">
+            <h3>Micael Ribeiro Rocha</h3> <!-- Sub-titulo -->
 
-                <p>Olá, eu estou no quarto período de Eng. de Software e estou bem ansioso para o seguimento do
-                    desenvolvimento desse projeto.</p>
+            <img src="images/micael.jpeg" width="150" height="150" alt="Micael"> <!-- Imagem do Micael -->
 
-            </div>
+            <p> <!-- Parágrafo -->
+                Olá, eu estou no quarto período de Eng. de Software e estou bem ansioso para o seguimento do
+                desenvolvimento desse projeto.
+            </p>
 
-            <div class="cartao">
-
-                <h3>Marcos Bueno</h3>
-                <img src="images/marcos.jpg" width="150" height="130" alt="Marcos" class="imgDev">
-                <p>Meu nome é Marcos e estou no 4° período de eng. de software e esta é minha primeira experiência com
-                    desenvolvimento web com um time /*competente*/.</p>
-
-            </div>
-            <div class="cartao">
-
-                <h3>Henrique Bezerra Lucas</h3>
-                <img src="images/henrique.jpg" width="150" height="130" alt="Henrique" class="imgDev">
-                <p>Henrique Lucas, 20 anos, estudante de Engenharia de Software apaixonado por desenvolvimento de
-                    aplicações com foco no back-end, agora aprendendo a programação web e se aventurando nas
-                    possibilidades do front-end</p>
-
-            </div>
         </div>
+
+        <div class="cartao">
+
+            <h3>Marcos Vinícius Bueno Prestes</h3> <!-- Sub-titulo -->
+
+            <img src="images/marcos.jpg" width="150" height="130" alt="Marcos"> <!-- Imagem do Marcos -->
+
+            <p> <!-- Parágrafo -->
+                Meu nome é Marcos e estou no 4° período de eng. de software e esta é minha primeira experiência com
+                desenvolvimento web com um time.
+            </p>
+
+        </div>
+
+        <div class="cartao">
+
+            <h3>Henrique Bezerra Lucas</h3> <!-- Sub-titulo -->
+
+            <img src="images/henrique.jpg" width="150" height="130" alt="Henrique"> <!-- Imagem do Henrique -->
+
+            <p> <!-- Parágrafo -->
+                Henrique Lucas, 20 anos, estudante de Engenharia de Software apaixonado por desenvolvimento de
+                aplicações com foco no back-end, agora aprendendo a programação web e se aventurando nas
+                possibilidades do front-end
+            </p>
+
+        </div>
+
     </main>
 
-    <!-- Rodapé -->
-    <footer>
-        <div class="centraliza">
-            <h3>@Copyright2023</h3>
-            <a href="https://github.com/eu-micaeu/FrontEnd-ODS-7"><img id="github" src="images/github.png" width="30"
-                    height="30" alt="GitHub"></a>
-        </div>
+    <footer> <!-- Rodapé -->
+
+        <h3>@Copyright2023</h3> <!-- Sub-titulo -->
+
+        <a href="https://github.com/eu-micaeu/FrontEnd-ODS-7"> <!-- Link para o repositório do projeto. -->
+
+            <img id="github" src="images/github.png" width="30" height="30" alt="GitHub"> <!-- Imagem do ícone do GitHub -->
+
+        </a>
+
     </footer>
+
 </body>
 
 </html>

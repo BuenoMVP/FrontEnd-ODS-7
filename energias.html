@@ -1,144 +1,139 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Tipo de documento. -->
 
-<html lang="pt-br">
+<html lang="pt-br"> <!-- Linguagem da página. -->
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!-- Encoding usado na página. -->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garantir que o conteúdo se adapte bem a dispositivos de diferentes tamanhos e que a experiência do usuário seja otimizada. -->
 
-    <title>ODS 7 - Energias Limpas</title>
+    <title>ODS 7 - Energias Limpas</title> <!-- Titulo da página. -->
 
-    <link rel="stylesheet" href="css/energias.css">
+    <link rel="stylesheet" href="css/energias.css"> <!-- Arquivo CSS que é usado na página. -->
 
-    <link rel="icon" href="images/raio.png" type="image/x-icon">
+    <link rel="icon" href="images/raio.png" type="image/x-icon"> <!-- Ícone do site. -->
 
 </head>
 
 <body>
-    
-    <header> <!-- Cabeçalho, 2 imagens e menu inicial-->
 
-        <div class="centraliza">
+    <header> <!-- Cabeçalho e menu inicial. -->
 
-            <nav>
+        <nav> <!-- Menu com as opcões do header. -->
 
-                <ul>
+            <ul> <!-- Criando a lista das opções. -->
 
-                    <li>
+                <li> <!-- Opção de início. -->
 
-                        <a href="index.html" class="botao"> Início </a>
+                    <a href="index.html" class="botao" title="Página inicial"> Início </a> <!-- Link para a página 'index.html'. -->
 
-                    </li>
+                </li>
 
-                    <li>
+                <li> <!-- Opção de formulário. -->
 
-                        <a href="form.html" class="botao"> Formulário</a>
+                    <a href="form.html" class="botao" title="Formulário do site"> Formulário </a> <!-- Link para a página 'form.html'. -->
 
-                    </li>
+                </li>
 
-                    <li>
+                <li> <!-- Opção de energias. -->
 
-                        <a href="energias.html" class="botao"> Energias </a>
+                    <a href="energias.html" class="botao" title="Tipos de energias"> Energias </a> <!-- Link para a página 'energias.html'. -->
 
-                    </li>
+                </li>
 
-                    <li>
+                <li> <!-- Opção de desenvolvedores. -->
 
-                        <a href="desenvolvedores.html" class="botao"> Devs. </a>
+                    <a href="desenvolvedores.html" class="botao" title="Desenvolvedores do projeto"> Devs. </a> <!-- Link para a página 'desenvolvedores.html'. -->
 
-                    </li>
+                </li>
 
-                </ul>
+            </ul>
 
-            </nav>
-
-        </div>
+        </nav>
 
     </header>
 
-    <!-- Principal, informações sobre tipo de energias criação de cartões-->
-    <main>
+    <main> <!-- Principal, informações sobre tipo de energias criação de cartões-->
 
-        <div class="centraliza">
+        <h1>Principais Energias Limpas</h1> <!-- Titulo principal -->
 
-            <h1>Principais Energias Limpas</h1>
+        <div class="cartao">
 
-            <div class="cartao">
+            <h3>Energias Eólica</h3> <!-- Sub-titulo -->
 
-                <h3>Energias Eólica</h3>
+            <img src="images/eolica.jpg" width="150" height="130" alt="Energia Eolica"> <!-- Imagem de uma usina eolica -->
 
-                <img src="images/eolica.jpg" width="150" height="130" alt="Energia Eolica" class="imgDev">
+            <p> <!-- Parágrafo -->
+                Energia eólica é a transformação da energia do vento em energia útil, tal como na utilização de
+                aerogeradores para produzir eletricidade, moinhos de vento para produzir energia mecânica ou velas
+                para
+                impulsionar veleiros. A energia eólica, enquanto alternativa aos combustíveis fósseis, é renovável,
+                está
+                permanentemente disponível, pode ser produzida em qualquer região, é limpa, não produz gases de
+                efeito
+                de estufa durante a produção e requer menos terreno. O impacto ambiental é geralmente menos
+                problemático do que o de outras fontes de energia.
+            </p>
 
-                <p>Energia eólica é a transformação da energia do vento em energia útil, tal como na utilização de
-                    aerogeradores para produzir eletricidade, moinhos de vento para produzir energia mecânica ou velas
-                    para
-                    impulsionar veleiros. A energia eólica, enquanto alternativa aos combustíveis fósseis, é renovável,
-                    está
-                    permanentemente disponível, pode ser produzida em qualquer região, é limpa, não produz gases de
-                    efeito
-                    de estufa durante a produção e requer menos terreno. O impacto ambiental é geralmente menos
-                    problemático do que o de outras fontes de energia.</p>
+            <a href="https://pt.wikipedia.org/wiki/Energia_eólica" target="_blank">Veja mais</a> <!-- Link para uma página do Wikipedia para uma explicação mais detalhada. -->
 
-                <h3><a href="https://pt.wikipedia.org/wiki/Energia_eólica" target="_blank">Veja mais</a></h3>
+        </div>
 
-            </div>
+        <div class="cartao">
 
-            <div class="cartao">
+            <h3>Energias Nuclear</h3> <!-- Sub-titulo -->
 
-                <h3>Energias Nuclear</h3>
+            <img src="images/nuclear.webp" width="150" height="130" alt="Energia Nuclear"> <!-- Imagem de uma usina nuclear -->
 
-                <img src="images/nuclear.webp" width="150" height="130" alt="Energia Nuclear" class="imgDev">
+            <p> <!-- Parágrafo -->
+                Energia nuclear ou energia atômica é a energia liberada em uma reação nuclear, ou seja, em processos
+                de
+                transformação de núcleos atômicos. Alguns isótopos de certos elementos químicos apresentam a
+                capacidade
+                de se transformar em outros isótopos ou elementos por meio de reações nucleares, emitindo energia
+                durante esse processo. Baseia-se no princípio da equivalência massa-energia, proposto por Albert
+                Einstein, segundo a qual durante reações nucleares ocorre transformação de massa em energia.
+            </p>
 
-                <p>Energia nuclear ou energia atômica é a energia liberada em uma reação nuclear, ou seja, em processos
-                    de
-                    transformação de núcleos atômicos. Alguns isótopos de certos elementos químicos apresentam a
-                    capacidade
-                    de se transformar em outros isótopos ou elementos por meio de reações nucleares, emitindo energia
-                    durante esse processo. Baseia-se no princípio da equivalência massa-energia, proposto por Albert
-                    Einstein, segundo a qual durante reações nucleares ocorre transformação de massa em energia.</p>
+            <a href="https://pt.wikipedia.org/wiki/Energia_nuclear" target="_blank">Veja mais</a> <!-- Link para uma página do Wikipedia para uma explicação mais detalhada. -->
 
-                <h3><a href="https://pt.wikipedia.org/wiki/Energia_nuclear" target="_blank">Veja mais</a></h3>
+        </div>
 
-            </div>
+        <div class="cartao">
 
-            <div class="cartao">
+            <h3>Energia Hidráulica</h3> <!-- Sub-titulo -->
 
-                <h3>Energia Hidráulica</h3>
+            <img src="images/hidraulica.jpg" width="150" height="130" alt="Energia Hidraulica"> <!-- Imagem de uma usina hidraulica -->
 
-                <img src="images/hidraulica.jpg" width="150" height="130" alt="Energia Hidraulica" class="imgDev">
+            <p> <!-- Parágrafo -->
+                A energia hidráulica ou energia hídrica é a energia obtida a partir da energia potencial de uma massa
+                de
+                água. A forma na qual ela se manifesta na natureza é nos fluxos de água, como rios e lagos e pode
+                ser
+                aproveitada por meio de um desnível ou queda d'água. Pode ser convertida na forma de energia
+                mecânica
+                (rotação de um eixo) através de turbinas hidráulicas ou moinhos de água. As turbinas por sua vez
+                podem
+                ser usadas como acionamento de um equipamento industrial, como um compressor, ou de um gerador
+                elétrico,
+                com a finalidade de prover energia elétrica para uma rede de energia.
+            </p>
 
-                <p>A energia hidráulica ou energia hídrica é a energia obtida a partir da energia potencial de uma massa
-                    de
-                    água. A forma na qual ela se manifesta na natureza é nos fluxos de água, como rios e lagos e pode
-                    ser
-                    aproveitada por meio de um desnível ou queda d'água. Pode ser convertida na forma de energia
-                    mecânica
-                    (rotação de um eixo) através de turbinas hidráulicas ou moinhos de água. As turbinas por sua vez
-                    podem
-                    ser usadas como acionamento de um equipamento industrial, como um compressor, ou de um gerador
-                    elétrico,
-                    com a finalidade de prover energia elétrica para uma rede de energia.</p>
-
-                <h3><a href="https://pt.wikipedia.org/wiki/Energia_hidráulica" target="_blank">Veja mais</a></h3>
-
-            </div>
+            <a href="https://pt.wikipedia.org/wiki/Energia_hidráulica" target="_blank">Veja mais</a> <!-- Link para uma página do Wikipedia para uma explicação mais detalhada. -->
 
         </div>
 
     </main>
 
-    <!-- Rodapé -->
-    <footer>
+    <footer> <!-- Rodapé -->
 
-        <div class="centraliza">
+        <h3>@Copyright2023</h3> <!-- Sub-titulo -->
 
-            <h3>@Copyright2023</h3>
+        <a href="https://github.com/eu-micaeu/FrontEnd-ODS-7"> <!-- Link para o repositório do projeto. -->
 
-            <a href="https://github.com/eu-micaeu/FrontEnd-ODS-7"><img id="github" src="images/github.png" width="30"
-                    height="30" alt="GitHub"></a>
+            <img id="github" src="images/github.png" width="30" height="30" alt="GitHub"> <!-- Imagem do ícone do GitHub -->
 
-        </div>
+        </a>
 
     </footer>
 
