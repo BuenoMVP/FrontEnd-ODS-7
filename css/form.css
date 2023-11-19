@@ -37,3 +37,25 @@ input{
     text-align: center;
 
 }
+
+#btExcluirTodos, #btExcluirUm, #btLimparFormulario{
+
+    background-color: red;
+
+}
+
+#btExcluirTodos:hover, #btExcluirUm:hover, #btLimparFormulario:hover{
+
+    background-color: white;
+
+}
+
+.linhaDeBloco{
+
+    border: 3px solid black;
+
+    width: 80vw;
+
+    border-radius: 15px;
+
+}
