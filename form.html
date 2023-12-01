@@ -80,35 +80,35 @@
 
             <input id="instituicao" type="text"> <!-- Input da instituição -->
 
-            <p>Submeta o formulário e já seja redirecionado para a página oficial da ODS 7.</p> <!-- Parágrafo -->
+            <p>Submeta o formulário para receber informações importantes no futuro pelo email!</p> <!-- Parágrafo -->
 
-            <a onclick="incluirDados()" href="https://www.ipea.gov.br/ods/ods7.html" target="_blank">Submeter</a> <!-- Link para a página oficial da ODS7. -->
+            <a onclick="incluirDados()">Submeter</a> <!--Botão para submeter dados-->
 
-            <a id="btLimparFormulario" onclick="limparCampos()">Limpar Formulário</a>
+            <a id="btLimparFormulario" onclick="limparCampos()">Limpar Formulário</a> <!--Botão para submeter dados-->
 
             <br>
 
             <hr class="linhaDeBloco">
 
-            <label for="pesquisa">Pesquisa de usuários por Nome:</label>
+            <label for="pesquisa">Pesquisa de usuários por Nome:</label>  <!--Rótulo da pesquisa-->
 
-            <input type="text" id="nomePesquisado" oninput="pesquisarPorNome()">
+            <input type="text" id="nomePesquisado" oninput="pesquisarPorNome()"> <!--Input da pesquisa-->
 
-            <h2>Lista de usuários que preencheram o formulário:</h2>
+            <h2>Lista de usuários que preencheram o formulário:</h2> <!--Subtítutlo-->
 
-            <ul id="lista">
+            <ul id="lista"> <!-- Criação da lista de usuários-->
 
             </ul>
 
             <hr class="linhaDeBloco">
 
-            <label for="pesquisa">Exluir um usuário pelo ID:</label>
+            <label for="pesquisa">Excluir um usuário pelo ID:</label> <!--Rótulo da pesquisa-->
 
-            <input type="text" id="excluirUmUsuarioPeloID">
+            <input type="text" id="excluirUmUsuarioPeloID"> <!--Input do id-->
 
             <br>
 
-            <a id="btExcluirUm" onclick="excluirUmUsuario()">Excluir Um Usuário</a>
+            <a id="btExcluirUm" onclick="excluirUmUsuario()">Excluir Um Usuário</a> <!--Botão para excluir um usuário-->
 
             <br>
 
@@ -116,7 +116,7 @@
 
             <br>
 
-            <a id="btExcluirTodos" onclick="excluirTodosUsuarios()">Excluir Todos os Usuários</a>
+            <a id="btExcluirTodos" onclick="excluirTodosUsuarios()">Excluir Todos os Usuários</a> <!--Botão para excluir todos os usuários-->
 
         </form>
 
